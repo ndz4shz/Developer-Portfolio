@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+    padding: 10px;
+    background-color: rgb(98, 175, 219);
+}
+.header img {
+   max-height: 150px;
+   border-radius: 50%;    
+}
+
+.header nav {
+    float: right;
+}
+.header nav ul li {
+    display: inline-block;
+}
+.card {
+    width: 100%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: aqua;
+   
+}
+
