@@ -1,29 +1,111 @@
 * {
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.header {
-    padding: 10px;
-    background-color: rgb(98, 175, 219);
-}
-.header img {
-   max-height: 150px;
-   border-radius: 50%;    
-}
+    font-family: arial;
+    background-color: slategray;
 
-.header nav {
-    float: right;
 }
-.header nav ul li {
-    display: inline-block;
+header img{
+    border-radius: 25%;
+    max-width: 100px;
 }
-.card {
-    width: 100%;
-    float: right;
+header{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    background-color: aqua;
-   
 }
+nav ul{
+    display: flex;
+    justify-content: right;
+}
+ul li{
+    list-style-type: none;
+    padding: 0;
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 10px;
+}
+nav a:hover{
+    background-color: #555;
+}
+.aboutme{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.skills{
+    font-size: larger;
+    font-weight: bold;
+}
+  
+.contact ul{
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+
+.text-in-pic{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.bottom-left{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+section img{
+    border: lightgrey 5px solid;
+}
+.work {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.work h2 {
+    width: 20vw;
+}
+
+.work2 {
+    width: 70vw;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.work2 section p {
+    margin: -2;
+    z-index: 10;
+    background-color: lightgray;
+    color: white;
+}
+
+@media (max-width: 576px) {
+    .work {
+        display: block;
+        text-align: center;
+    }
+
+    .work h2 {
+        width: 90vw;
+    }
+
+    .work2 {
+        display: block;
+        width: 90vw;
+        border-left: none;
+    }
+}
+
+    
+
+
+
+
+
 
